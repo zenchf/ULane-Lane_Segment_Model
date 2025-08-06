@@ -1,0 +1,42 @@
+nvidia-smi
+
+lspci -v | grep -i nvidia
+
+dpkg -l | grep nvidia
+
+cat /proc/driver/nvidia/version
+
+GPU'nun performans modunu değiştirmek:
+
+
+nvidia-smi -pm 1  # Performans modunu açmak
+nvidia-smi -pm 0  # Performans modunu kapatmak
+GPU kullanımını sınırlamak:
+
+
+nvidia-smi -pl 100  # Güç limitini 100W olarak ayarlamak
+
+
+
+driver kuramama:
+(base) nvidia@nvidia:~$ sudo apt install nvidia-driver-565
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Some packages could not be installed. This may mean that you have
+requested an impossible situation or if you are using the unstable
+distribution that some required packages have not yet been created
+or been moved out of Incoming.
+The following information may help to resolve the situation:
+
+The following packages have unmet dependencies:
+ libnvidia-compute-565 : Depends: libssl1.1 (>= 1.1.0) but it is not installable
+E: Unable to correct problems, you have held broken packages.
+
+wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2_amd64.deb
+
+sudo dpkg -i libssl1.1_1.1.1f-1ubuntu2_amd64.deb
+
+
+sudo apt install nvidia-driver-565
+
