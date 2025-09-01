@@ -1,4 +1,7 @@
 ## Using U-Net Architecture and Pytorch for Lane Tracking ##
+<img width="1155" height="502" alt="resim" src="https://github.com/user-attachments/assets/5db8b5c9-4373-49a3-86b5-8a6d3121d60a" />
+
+
 GASimple Dataset: https://drive.google.com/drive/folders/1sIjtlCznTdaJPD6Bj8AmNTONo-9FYofB?usp=sharing
 
 Trained Models: https://drive.google.com/drive/folders/1A4almdOVmG5t84AJhAa9CyAHYYnzCOAo?usp=sharing
