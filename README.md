@@ -3,6 +3,8 @@ GASimple Dataset: https://drive.google.com/drive/folders/1sIjtlCznTdaJPD6Bj8AmNT
 
 Trained Models: https://drive.google.com/drive/folders/1A4almdOVmG5t84AJhAa9CyAHYYnzCOAo?usp=sharing
 
+Output Video/Images: https://drive.google.com/drive/folders/1XwNXZ3z2lKOzD5Nru6Oyq0pUi132pjql?usp=sharing
+
 ## The file structure ##
 --zece/
 	--another_main.py	**training code. The difference with "main.py" is that this code calculates the dice score (dice score is between 0 and 1. The closer the dice score is to 1 the better.)
